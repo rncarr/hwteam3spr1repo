@@ -1,0 +1,31 @@
+location,price,experience,other
+1,15,Middle of the Road,Arcade and Putt-Putt
+1,15,Thrill Seeker,Putt-Putt
+1,20,Family Friendly,Putt-Putt
+1,20,Middle of the Road,Arcade
+1,20,Thrill Seeker,Arcade and Putt-Putt
+1,25,Family Friendly,Arcade
+1,25,Middle of the Road,Putt-Putt
+2,15,Middle of the Road,Arcade
+2,20,Family Friendly,None
+2,20,Middle of the Road,Putt-Putt
+2,25,Family Friendly,Putt-Putt
+2,25,Middle of the Road,None
+3,20,Family Friendly,Arcade and Putt-Putt
+3,20,Middle of the Road,None
+3,25,Middle of the Road,Arcade and Putt-Putt
+3,30,Family Friendly,None
+3,30,Middle of the Road,Arcade
+3,30,Thrill Seeker,Arcade and Putt-Putt
+4,15,Middle of the Road,Putt-Putt
+4,15,Thrill Seeker,Arcade and Putt-Putt
+4,20,Middle of the Road,Arcade and Putt-Putt
+4,25,Middle of the Road,Arcade
+4,30,Middle of the Road,None
+4,30,Thrill Seeker,Arcade
+5,15,Family Friendly,Putt-Putt
+5,15,Middle of the Road,None
+5,15,Thrill Seeker,Arcade
+5,25,Family Friendly,None
+5,30,Middle of the Road,Arcade and Putt-Putt
+5,30,Thrill Seeker,None
