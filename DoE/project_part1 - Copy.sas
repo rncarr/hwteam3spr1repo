@@ -7,7 +7,7 @@
                 other        cvals=('None' 'Arcade' 'Putt-Putt' 'Arcade and Putt-Putt')
                 ;
 %let class = location price experience other;
-%let points  = n=28;
+%let points  = n=30;
 %let model   = location|price|experience|other;
 
 PROC PLAN ORDERED seed=940522;
