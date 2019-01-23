@@ -3,12 +3,12 @@
 %let factors = location=5 price=4 experience=3 other=4;
 %let levels  =  location     cvals=('1' '2' '3' '4' '5')
                 price  		 nvals=(15 20 25 30)
-                experience   cvals=('Family Friendly' 'Thrill Seeker' 'Middle of the Road')
+                experience   nvals=('Family Friendly' 'Thrill Seeker' 'Middle of the Road')
                 other        cvals=('None' 'Arcade' 'Putt-Putt' 'Arcade and Putt-Putt')
                 ;
 %let class = location price experience other;
-%let points  = n=30;
-%let model   = location|price|experience|other@2;
+%let points  = n=19;
+%let model   = location price experience other;
 
 PROC PLAN ORDERED seed=940522;
   FACTORS &factors
@@ -48,7 +48,7 @@ run;
 proc power;
      multreg
         model = random
-        nfullpredictors = 18
+        nfullpredictors = 12
         ntestpredictors = 1
         partialcorr = 0 to 1 by 0.05
         ntotal = .
