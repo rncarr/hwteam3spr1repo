@@ -3,7 +3,7 @@
 %let factors = location=5 price=4 experience=3 other=4;
 %let levels  =  location     cvals=('1' '2' '3' '4' '5')
                 price  		 nvals=(15 20 25 30)
-                experience   nvals=('Family Friendly' 'Thrill Seeker' 'Middle of the Road')
+                experience   cvals=('Family Friendly' 'Thrill Seeker' 'Middle of the Road')
                 other        cvals=('None' 'Arcade' 'Putt-Putt' 'Arcade and Putt-Putt')
                 ;
 %let class = location price experience other;
