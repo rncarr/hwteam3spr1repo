@@ -155,3 +155,8 @@ abline(a = 0, b = 1, lty = 2)
 # AUC
 auc <- performance(pred, measure = "auc")@y.values
 auc
+
+
+# binding test and train sets and exporting
+export = rbind(train, test)
+write.csv(export, '/Users/bxp151/Documents/MSA 2019/040 DOE/HW02/hw2-final.csv')
